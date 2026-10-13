@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f7fc;
+            color: #333;
+            line-height: 1.6;
+            transition: 0.3s;
+
+        }
+        nav{
+            background-color: #222;
+            color: white;
+            padding: 15px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap:20px;
+        }
+        .logo{
+            color:#00d4ff;
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+            gap:20px;
+        }
+        .profile-img{
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid white;
+            box-shadow: 0 4px 15px;
+            margin-bottom: 20px;
+        }
+        #home{
+            min-height: 80vh;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 60px 20px;
+            background-color: rgb(255, 130, 130)
+        }
+        .home-content{
+            max-width: 650px;
+        }
+        h1{
+          font-size: 42px; 
+          margin-bottom: 10px; 
+        }
+        h1 span{
+            color:darkblue;
+        }
+        #home h3{
+            font-size: 23px;
+            margin-bottom: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2 class="logo">MyPortfolio</h2>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Skills</li>
+            <li>Projects</li>
+        </ul>
+       
+
+    </nav>
+     <section id="home">
+         <div class="home-content">
+                <img src="speed.gif"class="profile-img" alt="Profile Image">
+                <h1>Hello i am <span>Aarav</span></h1>
+            <h3>I am learning web development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit eos dolore voluptatibus iste. Similique error aliquid quo ab, natus eveniet!</p>
+            </div>
+            
+           
+
+        </section>
+
+
+
+        <section id="about"></section>
+        <section id="skills"></section>
+        <section id="projects"></section>
+</body>
+</html>
